@@ -1,0 +1,26 @@
+label {
+    display: inline-block;
+    width: 200px; /* Ancho fijo para todos los labels */
+    text-align: left; /* Alineación a la izquierda */
+}
+input[type="text"],
+input[type="email"],
+select {
+    width: 250px; /* Ancho fijo para todos los inputs y selects */
+}
+.checkbox-container {
+    display: inline-block;
+    vertical-align: top; /* Alineación arriba */
+}
+.checkbox-container label {
+    display: inline-block;
+    width: auto; /* Ancho automático para los labels de los checkboxes */
+}
+.checkbox-container input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 0px; /* Espacio entre los checkboxes */
+}
+#enviar-btn {
+    margin-top: 20px; /* Espacio entre el último campo y el botón */
+    display: block; /* Convertir el botón en bloque para que esté abajo */
+}

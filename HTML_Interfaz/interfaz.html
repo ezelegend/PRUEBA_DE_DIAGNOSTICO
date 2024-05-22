@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMULARIO DE VOTACIÓN</title>
+  <link rel="icon" href="favicon.ico">
+  <link href="/CSS_Interfaz/styles.css">
+</head>
+<body>
+  <h1>FORMULARIO DE VOTACIÓN:</h1>
+
+  <form id="formulario_votacion" action="/PHP_Aplicativo/db.php" method="post">
+    <label for="nombre_apellido">Nombre y Apellido</label>
+    <input type="text" id="nombre_apellido" name="nombre_apellido" required><br><br>
+
+    <label for="alias">Alias</label>
+    <input type="text" id="alias" name="alias" required><br><br>
+
+    <label for="rut">RUT</label>
+    <input type="text" id="rut" name="rut" required><br><br>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="selectRegiones">Región</label>
+    <select id="selectRegiones" name="selectRegiones" required>
+      <option value="">Seleccione...</option>
+    </select><br><br>
+
+    <label for="selectComunas">Comuna</label>
+    <select id="selectComunas" name="selectComunas" required>
+        <option value="">Seleccione...</option>
+    </select><br><br>
+
+    <label for="selectCandidatos">Candidato</label>
+    <select id="selectCandidatos" name="selectCandidatos" required>
+        <option value="">Seleccione...</option>
+    </select><br><br>
+
+    <div class="checkbox-container">
+      <label>¿Cómo se enteró de nosotros?</label>
+      <input type="checkbox" id="web" name="como_se_entero[]" value="Web">
+      <label for="web">WEB</label>
+      <input type="checkbox" id="tv" name="como_se_entero[]" value="TV">
+      <label for="tv">TV</label>
+      <input type="checkbox" id="redsocial" name="como_se_entero[]" value="RedSocial">
+      <label for="redsocial">Redes Sociales</label>
+      <input type="checkbox" id="amigo" name="como_se_entero[]" value="Amigo">
+      <label for="amigo">Amigo</label><br><br>
+    </div>
+
+    <button type="button" id="btnVotar">Votar</button>
+  </form>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/JAVASCRIPT_FUNCIONES/index.js"></script>
+</body>
+</html>
