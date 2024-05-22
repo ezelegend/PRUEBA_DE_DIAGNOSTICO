@@ -17,7 +17,9 @@ Paso 3: tener visual studio code como herramienta de desarrollo. Con las siguien
   - PHP Server
     
 ---------------------------------------------------------------------------------------------------------------------------
-Paso 4: abrir la carpeta de todo el proyecto
+Paso 4: abrir la carpeta de todo el proyecto en Visual Studio code
 ---------------------------------------------------------------------------------------------------------------------------
-Paso 5: click derecho en html y dar en PHP Server: Server Project
+Paso 5: Una vez cargado todos los archivos dentro y ya con la base de datos creada. 
+Click derecho en el archivo interfaz.html y dar en PHP Server: Server Project
+
 ---------------------------------------------------------------------------------------------------------------------------
