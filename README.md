@@ -7,8 +7,8 @@ versión: PHP Version 8.0.30
 versión Base de datos: MySQL 8.0.37.0 msi
 
 ---------------------------------------------------------------------------------------------------------------------------
-Paso 2: Tomar el Script de Sql en MySQL y ejecutarlo completamente para así crear la DATABASE bdvotacion con sus
-respetivas tablas y datos.
+Paso 2: Tomar el Script de la carpeta "SQL" y ejecutarlo completamente para así crear la DATABASE bdvotacion con sus
+respetivas tablas y datos. dentro de MySQL.
 
 ---------------------------------------------------------------------------------------------------------------------------
 Paso 3: tener visual studio code como herramienta de desarrollo. Con las siguientes Extenciones:
