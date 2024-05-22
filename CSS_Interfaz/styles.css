@@ -20,7 +20,17 @@ select {
     display: inline-block;
     margin-right: 0px; /* Espacio entre los checkboxes */
 }
-#enviar-btn {
-    margin-top: 20px; /* Espacio entre el último campo y el botón */
-    display: block; /* Convertir el botón en bloque para que esté abajo */
-}
+#contenedor-checkboxes {
+    text-align: left; /* Alinea el contenido a la izquierda */
+  }
+  
+  .checkbox-container {
+    display: inline-block;
+    vertical-align: top; /* Alinea los checkboxes arriba */
+  }
+  
+  #btnVotar {
+    display: block; /* Convierte el botón en bloque */
+    margin-top: 20px; /* Espacio entre el contenedor de los checkboxes y el botón */
+  }
+  
